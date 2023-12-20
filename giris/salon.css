@@ -1,0 +1,53 @@
+  .poster {
+    width: auto;
+    max-width: 20%; 
+    height: auto;
+    border: 2px solid #ddd;
+    margin-left: 3%;
+    margin-top: 2%;
+  }
+  
+  .acık{
+    margin-left: 3%;
+  }
+
+  .poster:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+  }
+  
+  .foto2 {
+    width: auto;
+    max-width: 20%;
+    height: auto;
+    border: 5px solid #ddd;
+    margin-left: 33%;
+    margin-top: -17%;
+  }
+
+  .foto3 {
+    width: auto;
+    max-width: 20%;
+    height: auto;
+    border: 5px solid #ddd;
+    margin-left: 66%;
+    margin-top: -4.9%;
+}
+
+.foto4 {
+    width: auto;
+    max-width: 20%;
+    height: auto;
+    border: 5px solid #ddd;
+    margin-left: 33%;
+    margin-top: 14%;
+}
+
+.foto5 {
+    width: auto;
+    max-width: 20%;
+    height: auto;
+    border: 5px solid #ddd;
+    margin-left: 3%;
+    margin-top: -4.8%;
+}

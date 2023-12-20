@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="ticketal.css">
+
+
+</head>
+<body>
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+<div class="ustkısım"> <img src="https://b6s54eznn8xq.merlincdn.net/dist/assets/img/logo.svg" alt="pickaseat" class="logo"> </div>
+
+ <div class="koltuklar">
+   
+  <div class="yassınırı"><img src="https://b6s54eznn8xq.merlincdn.net/Uploads/SmartMarker/16-2020114181159.png" style="width:25px; height:25px; margin-left: 8px; margin-top: 1%;">  <h1 class="text">Filme ait yaş sınırı ve öğrenci bileti kontrolü için sinema girişinde kimlik ibrazı zorunludur. <br> (16 yaş ve üzeri izleyici kitlesi için uygundur.) </h1>       </div>
+ <h1 class="bilet">Biletleriniz</h1>
+ 
+ <div class="seat-selection">
+  <label for="seatSelect">Koltuk Seçimi:</label>
+  <select id="seatSelect"></select>
+</div>
+
+
+</div>
+
+    <div class="satınAlma">
+   
+      <h5 class="s">İletişim Bilgileri</h5>
+   
+      
+      <h1 class="d">Biletiniz aşağıdaki iletişim bilgilerine göre hazırlanacaktır. Lütfen doğru bilgiler girdiğinizden emin olunuz.</h1>
+   
+      <ul>   
+        <li class="li1">
+          <span>Adınız</span>
+          <input type="text" placeholder="Adınız" id="firstName" class="harfsadece" maxlength="35" name="firstName" data-uyari="Lütfen Adınızı Girin">
+        </li>
+      <li class="li2">
+        <span>Soyadınız</span>
+        <input type="text" placeholder="Soyadınız" id="lastName" class="harfsadece" maxlength="35" name="lastName" data-uyari="Lütfen Soyadınızı Girin">
+      </li><br>
+      <li class="li3">
+        <span>E-Posta Adresiniz</span>
+        <input type="email" placeholder="E-Posta Adresiniz" autocomplete="on" autocompletetype="email" id="email" name="email" maxlength="100" data-uyari="Lütfen geçerli bir email giriniz">
+      </li>
+      <li class="li4">
+        <span>Telefon Numaranız</span>
+        <input type="tel" maxlength="12" placeholder="(***) *** ** **" oninput="this.value=this.value.replace(/[^0-9]/g,'');" pattern="[0-9]" name="gsm" id="gsm" data-uyari="Lütfen geçerli bir cep numarası giriniz" inputmode="text">
+      </li>
+      </ul>
+
+    </div>
+
+    <div class="paymentPart">
+     
+      <img src="https://www.technopat.net/sosyal/eklenti/spider-man-2-jpg.114907/" class="poster" alt="">
+  
+      <div class="baslık">
+      <i class="text">Örümcek-Adam 2</i><br> 
+      </div>
+      
+      <div class="konum">
+        <i class="text2"> <img  width="14" src="https://b6s54eznn8xq.merlincdn.net/dist/assets/img/location_yn.svg" alt="">Paribu Cineverse Emaar Square</i><br>
+      </div>
+      <div class="saat">
+        <i class="text3"> <img width="12" src="https://b6s54eznn8xq.merlincdn.net/dist/assets/img/yn_saat.svg" alt="">9 Aralık 2023 Pazar, 19:00</i><br>
+      </div>
+      <br>
+      <div class="fiyat">Bilet bedeli</div>
+      <div class="total">Toplam</div>
+      <button onclick="ticketPayment()" class="sell">ÖDEME YAP</button>
+    </div>
+ 
+  <script type="module"src="buytickets.js"></script>
+
+</body>
+</html>

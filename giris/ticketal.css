@@ -1,0 +1,201 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field {
+  width: 40%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+}
+
+.satınAlma {
+  width: 50%;
+  padding: 30px;
+  background: #000000;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin-bottom: 0px;
+  transition: all ease 0.3s;
+  position: relative;
+  left: 15%;
+  top: 5%;
+}
+
+.satınAlma span {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.s{
+  font-size: 18px;
+  margin-left: 29px;
+}
+
+.d {
+  font-size: 15px;
+  margin-left: 27px;
+}
+
+.satınAlma ul li input {
+  width: 15%;
+  height: 50px;
+  border: 2px solid #EFF0F1;
+  background: #EFF0F1;
+  border-radius: 10px;
+  padding-left: 25px;
+  font-size: 15px;
+  transition: all ease 0.3s;
+}
+
+* {
+box-sizing: border-box !important;
+}
+
+
+.li1{
+  margin-left: 0%;
+  width: 130%;
+}
+
+.li2{
+  margin-left: 45%;
+  width: 130%;
+  margin-top: -10%;
+}
+
+.li3{
+  margin-left: 0%;
+  width: 130%;
+  margin-top: 0%;
+}
+
+.li4{
+  margin-left: 45%;
+  width: 130%;
+  margin-top: -9%;
+}
+
+.koltuklar{
+    width: 50%;
+    height: 25%;
+    padding: 30px;
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: all ease 0.3s;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+.ustkısım{
+  background: rgb(77, 51, 228);
+}
+
+.logo{
+  font-size: 11px;
+  margin-left: 15%;
+}
+
+.yassınırı{
+  background: rgb(87, 87, 7);
+  height: 40%;
+  border-radius: 15px;
+}
+.text{
+  font-size: 18.4px;
+  margin-top: -31px;
+  margin-left: 40px;
+}
+
+select {
+  width: 50%;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+  height: 30px;
+  line-height: 50px;
+  border: 0;
+  padding-left: 50px;
+  font-weight: bold;
+  line-height: 50px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  min-width: 200px;
+  padding-right: 40px;
+  max-width: 100%;
+}
+
+.bilet{
+  font-size: 18px;
+}
+
+
+.paymentPart {
+  width: 400px;
+  height: 35%;
+  padding: 20px;
+  background: #000000;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  transition: all ease 0.3s;
+  position: fixed;
+  margin-left: 70%;
+  top: 11%;
+}
+
+.poster{
+  max-height: 110px;
+  border-radius: 5px;
+  margin-left: 0%;
+  margin-top: 0px;
+}
+
+  .baslık{
+  margin-top: -25.5%;
+  margin-left: 31.5%;
+  }
+  
+  .konum{
+  margin-top: 1%;
+  margin-left: 42%;
+  }
+
+  .saat{
+    margin-top: 1%;
+    margin-left: 42%;
+  }
+
+  .sell{
+    margin-top: 10%;
+    margin-left: 9%;
+    width: 300px;
+    height: 45px;
+    border-radius: 12px;
+    background-color: rgb(173, 78, 0);
+  }
+
+  .fiyat{ 
+    border-bottom: 4px solid rgb(9, 9, 87);
+    padding: 10px 0;
+    font-size: 20px;
+  }
+
+  .total{ 
+    border-bottom: 4px solid rgb(9, 9, 87);
+    padding: 10px 0;
+    font-size: 20px;
+  }
