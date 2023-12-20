@@ -1,9 +1,11 @@
+# PROJE BİTMEMİŞTİR DEVAM ETMEKTEDİR
+
 # Sinema salonu koltuk bileti alma
 
 #Görünüm
 
 ![image](https://github.com/yusufkaratasss/Cinemasalon/assets/150325103/75825940-522d-40c2-b984-59b5f92854c8)
-
+# Bileti satın alma kısmı 
 ![image](https://github.com/yusufkaratasss/Cinemasalon/assets/150325103/69a7c8e0-9bc9-4df4-bc74-a436fd1cd3d5)
 
 (ÇALIŞMAYA DEVAM ETMEKTEYİM BİTMEYEN PROJEM)
@@ -49,7 +51,11 @@
     ```bash
     npm install nodemon 
     ```
+
    - nodemon çalışmazsa
     ```bash
     export PATH=$PATH:$(npm -g bin)
     ```
+
+  PROJE BİTMEMİŞTİR 
+
