@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/sinema.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  
+  <title>Sinema Krokisi</title>
+</head>
+<body>
+
+ <div class="background">
+   
+<br><br>
+  
+  <div class="ekran">Perde</div>
+
+  <img src="https://www.technopat.net/sosyal/eklenti/spider-man-2-jpg.114907/" class="poster" alt="">
+  
+  <div class="baslık">
+  <i class="text">Örümcek-Adam 2</i><br> 
+  </div>
+  
+  <div class="konum">
+    <i class="text2"> <img  width="14" src="https://b6s54eznn8xq.merlincdn.net/dist/assets/img/location_yn.svg" alt="">&nbsp Paribu Cineverse Emaar Square</i><br>
+  </div>
+  
+  <div class="saat">
+    <i class="text3"> <img width="12" src="https://b6s54eznn8xq.merlincdn.net/dist/assets/img/yn_saat.svg" alt="">&nbsp 10 Aralık 2023 Pazar, 19:00</i><br>
+  </div>
+   
+  <div class="status-container">
+    <div id="countdown" class="countdown"></div>
+    <div class="status-text">Dolu</div>&nbsp
+    <div class="status-color-box"></div>&nbsp&nbsp&nbsp&nbsp
+    <div class="status-text">Boş</div>&nbsp
+    <div class="status-color-box2" style="background-color: #0f0404;"></div>
+  </div>
+  
+  <div class="sinema-salonu">
+    <div id="popup" class="popup">
+      <div class="close-icon" onclick="closePopup()">
+        <i style="margin-left: 280px;" class="fas fa-times"></i>
+      </div>
+      <div id="popup-content" class="popup-content"></div>
+      
+      <br>
+      <button id="saveChangesBtn" onclick="window.ticketbuy()">Bileti Al</button>
+    </div>    
+  </div>
+ </div>
+
+ <script type="module" src="../ajavascipt/kroki.js"></script>
+</body>
+</html>

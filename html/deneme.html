@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="elapsedTime" style="min-height: 100px; width: 200px;"></div>
+    
+    <script>
+        let startDate = new Date();
+        const elapsedTimeDiv = document.getElementById('elapsedTime');
+
+        function updateCounter() {
+            const currentDate = new Date();
+            const elapsedTime = currentDate - startDate;
+            const seconds = Math.floor(elapsedTime / 1000);
+            elapsedTimeDiv.textContent = `Current date and time: ${currentDate}`;
+        }
+
+        setInterval(updateCounter, 1000);
+    </script>
+</body>
+</html>
